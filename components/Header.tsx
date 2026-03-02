@@ -36,28 +36,28 @@ export function Header() {
             <Link 
               to="/" 
               onClick={scrollToTop}
-              className={`transition-all ${isActive('/') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
+              className={`transition-all px-4 ${isActive('/') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
             >
               Home
             </Link>
             <Link 
               to="/services" 
               onClick={scrollToTop}
-              className={`transition-all ${isActive('/services') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
+              className={`transition-all px-4 ${isActive('/services') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
             >
               Services
             </Link>
             <Link 
               to="/about" 
               onClick={scrollToTop}
-              className={`transition-all ${isActive('/about') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
+              className={`transition-all px-4 ${isActive('/about') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
             >
               About
             </Link>
             <Link 
               to="/contact" 
               onClick={scrollToTop}
-              className={`transition-all ${isActive('/contact') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
+              className={`transition-all px-4 ${isActive('/contact') ? 'text-green-400 underline' : 'text-white hover:text-green-400 hover:underline'}`}
             >
               Contact
             </Link>
